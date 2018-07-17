@@ -1,0 +1,101 @@
+#contenido{
+}
+
+body{
+   	background: #999999;
+	margin: 5%;
+	border: solid;
+	border-width: 1px;
+	/*border-color: red;*/
+	/*height: 150px;*/
+	font: 24px Helvetica;
+}
+
+header{
+	font-size: 20px;
+	background-color: rgb(94, 131, 176);
+	align-items: center;
+}
+
+.headerText{
+	/*float: right;*/
+	/*display: inline;*/
+	margin: 10px;
+	width: 70%;
+}
+
+#rgb{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30%;
+	display: inline-block;
+	border-width: 2px;
+	border-style: dotted;
+	font-size: 50px;
+	text-align: center;
+	padding: 2px;
+}
+
+#dificultadPanel{
+	display: inline;
+	border-width: 1px;
+	padding: 5px;
+	float: right;
+	background-color: rgb(94, 131, 176);
+	padding: 0px;
+}
+
+#easy{
+	display: block;
+	margin: 0px;
+	margin-left: 5px;
+	margin-right: 5px;	
+	border-radius: 5px;
+	/*border-style: inset;*/
+	/*background-color: rgb(38, 97, 168);*/
+	/*border-color: rgb(38, 97, 168);*/
+	height: 25px;
+}
+
+#hard{
+	display: block;
+	margin: 0px;
+	margin-left: 5px;
+	margin-right: 5px;	
+	border-radius: 5px;
+	/*border-style: outset;*/
+	/*border-color: rgb(114,162,219);*/
+	/*background-color: rgb(114,162,219);*/
+	height: 25px;
+}
+
+p{
+	display: inline-block;
+	margin: 2px;
+	padding: 5px;
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	height: 100px;
+	border: solid;
+	border-radius: 17px;
+	border-width: 1px;
+}
+
+#fila2{
+	visibility: hidden;
+}
+
+#racha{
+	float:left;
+	margin-left: 15%;
+}
+
+#record{
+	float: right;
+	margin-right: 15%;
+}
