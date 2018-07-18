@@ -5,33 +5,38 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	</head>
-<body>
-
-<!-- <div id="contenido"> -->
+<body id="cuerpo">
 	
 	<header>
-		<p class="headerText">Haz&nbsp;<strong>click</strong>&nbsp;sobre el color que genera este código RGB:</p>
-		<p id="rgb"></p>
+		<p id="headerText">Haz&nbsp;<strong>click</strong>&nbsp;sobre el color que genera este código RGB:</p>
 
 		<div id="dificultadPanel">
 			<p class="headerText">DIFICULTAD</p> 
 			<p id="easy" onclick="cambiarDificultad()">Facil</p> 
 			<p id="hard" onclick="cambiarDificultad()">Dificil</p>
 		</div id="dificultadPanel">
+		
+		<p id="rgb"></p>
 	</header>
 
 
 	<article id="colores">
 		<table>
 			<tr id="fila1">
-				<td id="color1" onclick="adivinar(this)"></td> 
-				<td id="color2" onclick="adivinar(this)"></td> 
-				<td id="color3" onclick="adivinar(this)"></td>
+				<td id="color1" onmouseover="apuntar(this, true)" onmouseout="apuntar(this, false)" 
+					onclick="adivinar(this)"></td> 
+				<td id="color2" onmouseover="apuntar(this, true)" onmouseout="apuntar(this, false)" 
+					onclick="adivinar(this)"></td> 
+				<td id="color3" onmouseover="apuntar(this, true)" onmouseout="apuntar(this, false)" 
+					onclick="adivinar(this)"></td>
 			</tr>
 			<tr id="fila2">
-				<td id="color4" onclick="adivinar(this)"></td> 
-				<td id="color5" onclick="adivinar(this)"></td> 
-				<td id="color6" onclick="adivinar(this)"></td>
+				<td id="color4" onmouseover="apuntar(this, true)" onmouseout="apuntar(this, false)" 
+					onclick="adivinar(this)"></td> 
+				<td id="color5" onmouseover="apuntar(this, true)" onmouseout="apuntar(this, false)" 
+					onclick="adivinar(this)"></td> 
+				<td id="color6" onmouseover="apuntar(this, true)" onmouseout="apuntar(this, false)" 
+					onclick="adivinar(this)"></td>
 			</tr>
 		</table>
 	</article>
@@ -40,7 +45,6 @@
 		<p id="racha">Racha actual: 0</p>
 		<p id="record">Mejor racha: 0</p>
 	</footer>
-<!-- </div> -->
 
 <script type="text/javascript" src="js/script.js"></script>
 
